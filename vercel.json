@@ -1,6 +1,10 @@
 {
   "routes": [
     {
+      "src": "/jobsPlatform-FrontEnd/(.*)",
+      "dest": "/index.html"
+    },
+    {
       "src": "/(.*)",
       "dest": "/index.html"
     }
