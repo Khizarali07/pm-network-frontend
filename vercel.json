@@ -2,7 +2,7 @@
   "routes": [
     {
       "src": "/jobsPlatform-FrontEnd/(.*)",
-      "dest": "[[path]]"
+      "dest": "/jobsPlatform-FrontEnd/$1"
     }
   ]
 }
