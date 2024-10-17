@@ -1,18 +1,5 @@
 {
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "build"
-      }
-    }
-  ],
   "routes": [
-    {
-      "src": "/jobsPlatform-FrontEnd/(.*)",
-      "dest": "/index.html"
-    },
     {
       "src": "/(.*)",
       "dest": "/index.html"
