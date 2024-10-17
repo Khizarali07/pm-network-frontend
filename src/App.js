@@ -79,7 +79,7 @@ const AppWrapper = () => {
   return (
     <>
       {!loading ? (
-        <Router basename="/jobsPlatform-FrontEnd">
+        <Router>
           <ScrollToTop />
           <App />
         </Router>
