@@ -1,12 +1,12 @@
 {
-  "rewrites": [
+  "routes": [
     {
-      "source": "/jobsPlatform-FrontEnd/(.*)",
-      "destination": "/index.html"
+      "src": "/jobsPlatform-FrontEnd/(.*)",
+      "dest": "/index.html"
     },
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
