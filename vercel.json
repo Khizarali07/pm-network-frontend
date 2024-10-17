@@ -3,6 +3,10 @@
     {
       "src": "/jobsPlatform-FrontEnd/(.*)",
       "dest": "/jobsPlatform-FrontEnd/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
     }
   ]
 }
