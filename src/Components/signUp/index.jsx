@@ -18,7 +18,7 @@ function SignUp() {
 
     try {
       const res = await axios.post(
-        "pm-network-backend-production.up.railway.app/api/auth/signup",
+        "https://pm-network-backend-production.up.railway.app/api/auth/signup",
         { email, password }
       );
       // Save token to localStorage or state

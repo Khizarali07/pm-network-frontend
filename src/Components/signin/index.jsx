@@ -22,7 +22,7 @@ function SignIn() {
 
     try {
       const res = await axios.post(
-        "pm-network-backend-production.up.railway.app/api/auth/login",
+        "https://pm-network-backend-production.up.railway.app/api/auth/login",
         { email, password }
       );
       // Save token to localStorage or state
@@ -37,7 +37,7 @@ function SignIn() {
   };
   const LinkedInLogin = async () => {
     window.location.href =
-      "pm-network-backend-production.up.railway.app/api/auth/linkedin";
+      "https://pm-network-backend-production.up.railway.app/api/auth/linkedin";
   };
   // Create a new useEffect to handle the response after LinkedIn authentication
   useEffect(() => {
@@ -53,7 +53,7 @@ function SignIn() {
         // Optionally fetch user data from backend
         try {
           const res = await axios.get(
-            "pm-network-backend-production.up.railway.app/api/auth/me",
+            "https://pm-network-backend-production.up.railway.app/api/auth/me",
             {
               headers: { Authorization: `Bearer ${token}` },
             }

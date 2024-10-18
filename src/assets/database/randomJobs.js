@@ -4,7 +4,7 @@ export const fetchRandomJobs = async () => {
   const results_per_page = 12;
   try {
     const response = await axios.get(
-      `pm-network-backend-production.up.railway.app/api/jobs/?results_per_page=${results_per_page}`
+      `https://pm-network-backend-production.up.railway.app/api/jobs/?results_per_page=${results_per_page}`
     );
 
     // Create a new array with the img property added to each job

@@ -7,7 +7,7 @@ export const fetchFilteredJobs = async (query) => {
     // queries must be like : { results_per_page, keyword, title, location, company, salary, pageNo }
     // at least keyword and location must me entered.
     const response = await axios.get(
-      `pm-network-backend-production.up.railway.app/api/jobs/filter?${query}`
+      `https://pm-network-backend-production.up.railway.app/api/jobs/filter?${query}`
     );
     console.log(response.data);
     // Create a new array with the img property added to each job
@@ -26,7 +26,7 @@ export const categoryFilteredJobs = async (query) => {
     // queries must be like : { results_per_page, keyword, title, location, company, salary, pageNo }
     // at least keyword and location must me entered.
     const response = await axios.get(
-      "pm-network-backend-production.up.railway.app/api/jobs/category",
+      "https://pm-network-backend-production.up.railway.app/api/jobs/category",
       {
         params: serializedQuery, // Axios will automatically format the query string correctly
       }
