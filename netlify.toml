@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/jobsPlatform-FrontEnd/*"
+  to = "/jobsPlatform-FrontEnd/index.html"
+  status = 200
