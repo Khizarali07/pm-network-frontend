@@ -77,13 +77,13 @@ function Footer(props) {
                 <ul className={`navigation-menu-footer d-flex ${flex}`}>
                   <li>
                     {" "}
-                    <Link to="/jobsPlatform-FrontEnd/aboutus">
-                      About Us
-                    </Link>{" "}
+                    <Link to="/jobsPlatform-FrontEnd/">About Us</Link>{" "}
                   </li>
                   <li>
                     {" "}
-                    <Link to="/jobsPlatform-FrontEnd/">Job Board</Link>{" "}
+                    <Link to="/jobsPlatform-FrontEnd/job-board">
+                      Job Board
+                    </Link>{" "}
                   </li>
                   <li>
                     {" "}
@@ -99,7 +99,7 @@ function Footer(props) {
                   </li> */}
                   <li>
                     {" "}
-                    <Link to="/jobsPlatform-FrontEnd/newsletter">
+                    <Link to="https://thepmnetworkalliance.beehiiv.com/">
                       Newsletter
                     </Link>{" "}
                   </li>

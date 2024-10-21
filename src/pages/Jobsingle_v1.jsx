@@ -126,19 +126,19 @@ function Jobsingle_v1(props) {
                     <ul id="menu-primary-menu" className="menu">
                       <li className="menu-item current-item">
                         <Link
-                          to="/jobsPlatform-FrontEnd/"
+                          to="/jobsPlatform-FrontEnd/job-board"
                           className="iteam-menu"
                           onClick={() => {
                             handleToggle("home");
                           }}
                         >
-                          Home
+                          Job Board
                         </Link>
                       </li>
 
                       <li className="menu-item">
                         <Link
-                          to="/jobsPlatform-FrontEnd/aboutus"
+                          to="/jobsPlatform-FrontEnd/"
                           className="iteam-menu"
                           onClick={() => {
                             handleToggle("job");
@@ -186,7 +186,7 @@ function Jobsingle_v1(props) {
 
                       <li className="menu-item">
                         <Link
-                          to="/jobsPlatform-FrontEnd/newsletter"
+                          to="https://thepmnetworkalliance.beehiiv.com/"
                           className="iteam-menu"
                           onClick={() => {
                             handleToggle("employers");

@@ -97,12 +97,10 @@ function Header({ clname = "", handleMobile }) {
                   <nav id="main-nav" className="main-nav">
                     <ul id="menu-primary-menu" className="menu">
                       <li className={`menu-item`}>
-                        <NavLink to="/jobsPlatform-FrontEnd/aboutus">
-                          About Us
-                        </NavLink>
+                        <NavLink to="/jobsPlatform-FrontEnd/">About Us</NavLink>
                       </li>
                       <li className={`menu-item`}>
-                        <NavLink to="/jobsPlatform-FrontEnd/">
+                        <NavLink to="/jobsPlatform-FrontEnd/job-board">
                           Job Board
                         </NavLink>
                       </li>
@@ -122,7 +120,7 @@ function Header({ clname = "", handleMobile }) {
                         </NavLink>
                       </li> */}
                       <li className="menu-item">
-                        <NavLink to="/jobsPlatform-FrontEnd/newsletter">
+                        <NavLink to="https://thepmnetworkalliance.beehiiv.com/">
                           Newsletter
                         </NavLink>
                       </li>

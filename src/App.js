@@ -26,36 +26,36 @@ const App = () => {
   let routes = useRoutes([
     {
       path: "/jobsPlatform-FrontEnd/",
-      element: <Home_v1 />,
+      element: <AboutUs />,
     },
-    { path: "/jobsPlatform-FrontEnd/aboutus", element: <AboutUs /> },
+    { path: "/jobsPlatform-FrontEnd/job-board", element: <Home_v1 /> },
     {
       path: "/jobsPlatform-FrontEnd/jobsingle_v1/:jobID",
-      element: <ProtectedRoute element={<Joblist_v1 />} />,
+      element: <Joblist_v1 />,
     },
     {
       path: "/jobsPlatform-FrontEnd/job-list-sidebar",
-      element: <ProtectedRoute element={<Joblist_v3 />} />,
+      element: <Joblist_v3 />,
     },
     {
       path: "/jobsPlatform-FrontEnd/job-list-sidebar/category/:title",
-      element: <ProtectedRoute element={<Joblist_v3 />} />,
+      element: <Joblist_v3 />,
     },
     {
       path: "/jobsPlatform-FrontEnd/PPM Tools",
-      element: <ProtectedRoute element={<PPMTools />} />,
+      element: <PPMTools />,
     },
     {
       path: "/jobsPlatform-FrontEnd/AI-Resume-Editor/Job-Matcher",
-      element: <ProtectedRoute element={<AI />} />,
+      element: <AI />,
     },
     {
       path: "/jobsPlatform-FrontEnd/reviews",
-      element: <ProtectedRoute element={<Reviews />} />,
+      element: <Reviews />,
     },
     {
       path: "/jobsPlatform-FrontEnd/newsletter",
-      element: <ProtectedRoute element={<Newsletter />} />,
+      element: <Newsletter />,
     },
     { path: "/jobsPlatform-FrontEnd/login", element: <Login /> },
     { path: "/jobsPlatform-FrontEnd/loginWithLinkedIn", element: <Login /> },
@@ -79,7 +79,7 @@ const AppWrapper = () => {
   return (
     <>
       {!loading ? (
-        <Router basename="/">
+        <Router>
           <ScrollToTop />
           <App />
         </Router>
